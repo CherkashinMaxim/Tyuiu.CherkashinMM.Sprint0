@@ -1,6 +1,3 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-
 using Tyuiu.CherkashinMM.Sprint0.Task6.V0.Lib;
 
 namespace Tyuiu.CherkashinMM.Sprint0.Task6.V0.Test

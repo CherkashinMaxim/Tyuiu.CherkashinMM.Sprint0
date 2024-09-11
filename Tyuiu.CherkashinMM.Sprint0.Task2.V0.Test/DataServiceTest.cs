@@ -1,7 +1,3 @@
-п»їusing Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Threading;
-
 using Tyuiu.CherkashinMM.Sprint0.Task2.V0.Lib;
 
 namespace Tyuiu.CherkashinMM.Sprint0.Task2.Test
@@ -12,10 +8,10 @@ namespace Tyuiu.CherkashinMM.Sprint0.Task2.Test
         [TestMethod]
         public void CheckGetMessageValid()
         {
-            var name = "РњР°РєСЃРёРј";
+            var name = "Максим";
             var res = DataService.GetMessage(name);
 
-            Assert.AreEqual("РџСЂРёРІРµС‚, РњР°РєСЃРёРј", res);
+            Assert.AreEqual("Привет, Максим", res);
         }
     }
 }

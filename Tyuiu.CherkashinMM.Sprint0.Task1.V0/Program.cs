@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tyuiu.CherkashinMM.Sprint0.Task1.V0
+﻿namespace Tyuiu.CherkashinMM.Sprint0.Task1.V0
 {
     internal class Program
     {
